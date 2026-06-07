@@ -1,0 +1,30 @@
+{
+  "skill_name": "protocolo-rrpp",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tengo un ejercicio de examen: el Presidente de la Junta de Castilla y León organiza un acto en Salamanca para la firma de un convenio con el Ministerio de Educación. Asisten: el Ministro de Educación, el Rector de la Universidad de Salamanca, el Alcalde de Salamanca, el Delegado del Gobierno en CyL, el Presidente de la Diputación de Salamanca y el Consejero de Educación de la Junta. ¿Qué artículo aplico y cuál es el orden de precedencia?",
+      "expected_output": "Art. 12 (acto en CA promovido por la Junta). Tabla de precedencias completa y justificada con el Presidente de la Junta en nº 13, Ministro en nº 15, Consejero en nº 32, Alcalde en nº 22, Delegado en nº 21, Presidente Diputación en nº 40, Rector en nº 44."
+    },
+    {
+      "id": 2,
+      "prompt": "Necesito organizar la foto oficial de una cumbre bilateral España-Francia en Madrid. Asisten: el Rey de España, el Presidente Macron (IH), el Presidente del Gobierno español, el Ministro de Asuntos Exteriores español, el Ministro de Economía francés y el Embajador francés en España. Son 6 personas. ¿Cómo se colocan?",
+      "expected_output": "Sistema de alternancia con 6 personas (número par → preside el del centro). Tabla de precedencias con Art. 10. Diagrama de colocación con posición exacta de cada uno."
+    },
+    {
+      "id": 3,
+      "prompt": "Soy jefa de protocolo de una empresa y tenemos una cena de gala con 8 comensales: el CEO de nuestra empresa (anfitrión), un cliente importante que es director general de otra empresa (invitado de honor), el CFO de nuestra empresa, la directora de marketing, el director comercial del cliente, la esposa del CEO, la esposa del cliente y el director financiero del cliente. ¿Cómo organizo la mesa?",
+      "expected_output": "Protocolo empresarial (no RD). Mesa de cena con presidencia francesa o inglesa para 8 comensales con alternancia de género. Posición de cada comensal justificada."
+    },
+    {
+      "id": 4,
+      "prompt": "Para mi examen de RRPP necesito saber: ¿qué diferencia hay entre aplicar el artículo 10 y el artículo 12 del RD 2099/1983? Dame un ejemplo de cuándo usaría cada uno.",
+      "expected_output": "Explicación teórica clara de ambos artículos, diferencias principales (especialmente la subida del Presidente de la CA al nº 13 en el Art. 12), y ejemplos prácticos concretos."
+    },
+    {
+      "id": 5,
+      "prompt": "Organiza la ficha de banderas para un acto en Madrid con los siguientes países: Alemania, Francia, Italia, España, Polonia y Bélgica. España es el país anfitrión.",
+      "expected_output": "Ficha de banderas con España en posición 1 (anfitrión) y el resto ordenados alfabéticamente en español o por criterio UE. Diagrama con numeración y nombres."
+    }
+  ]
+}
