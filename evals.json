@@ -1,30 +1,55 @@
 {
   "skill_name": "protocolo-rrpp",
+  "version": "2.0",
   "evals": [
     {
       "id": 1,
-      "prompt": "Tengo un ejercicio de examen: el Presidente de la Junta de Castilla y León organiza un acto en Salamanca para la firma de un convenio con el Ministerio de Educación. Asisten: el Ministro de Educación, el Rector de la Universidad de Salamanca, el Alcalde de Salamanca, el Delegado del Gobierno en CyL, el Presidente de la Diputación de Salamanca y el Consejero de Educación de la Junta. ¿Qué artículo aplico y cuál es el orden de precedencia?",
-      "expected_output": "Art. 12 (acto en CA promovido por la Junta). Tabla de precedencias completa y justificada con el Presidente de la Junta en nº 13, Ministro en nº 15, Consejero en nº 32, Alcalde en nº 22, Delegado en nº 21, Presidente Diputación en nº 40, Rector en nº 44."
+      "tipo": "precedencias + foto alternancia",
+      "prompt": "Evento en Madrid con: Presidente del Senado, Senador por Madrid don Fulano Pérez, Secretario de la Mesa del Senado, Jefe del Estado Mayor de la Defensa, Delegado del Gobierno de la CAM, Ministro del Interior, Embajadores de Francia y Portugal. Anfitrión: Nuncio Apostólico. Invitada de honor: Infanta Sofía de Borbón. Haz la precedencia para la foto del evento en fila única en formato de alternancia.",
+      "articulo": "Art. 10",
+      "expected": "10 personas PAR → IH (Infanta) en centro, AA (Nuncio) a su izquierda. Orden: IH·AA·10(Senado)·14(Interior)·26(JEMAD)·15.1(Emb.Francia)·15.2(Emb.Portugal)·28(DelegadoCAM)·32(Sec.Mesa)·40(Senador)"
     },
     {
       "id": 2,
-      "prompt": "Necesito organizar la foto oficial de una cumbre bilateral España-Francia en Madrid. Asisten: el Rey de España, el Presidente Macron (IH), el Presidente del Gobierno español, el Ministro de Asuntos Exteriores español, el Ministro de Economía francés y el Embajador francés en España. Son 6 personas. ¿Cómo se colocan?",
-      "expected_output": "Sistema de alternancia con 6 personas (número par → preside el del centro). Tabla de precedencias con Art. 10. Diagrama de colocación con posición exacta de cada uno."
+      "tipo": "precedencias + ficha recepción",
+      "prompt": "Acto en Salamanca. Invitados: Secretario General de la Casa del Rey, Jefe de la Casa del Rey, Presidente del Congreso, Presidente del Consejo Económico y Social, Vicepresidente de la Mesa del Congreso, Consejero de Educación de CyL, Ministro de Asuntos Exteriores, Ministro de Economía, Presidente de la Audiencia Provincial de Salamanca. Anfitrión: Alcalde de Salamanca. IH: Presidente del Gobierno. Haz la ficha de recepción.",
+      "articulo": "Art. 12 (Salamanca = territorio CA Castilla y León)",
+      "expected": "IH primero, AA segundo. Orden: IH·AA·9(Congreso)·15.1(Exteriores)·15.2(Economía)·23(JefeCasaRey)·29(VPMesaCongreso)·31(SecGralCasaRey)·32(ConsejeroEduc)·34(CES)·45(AudienciaProv)"
     },
     {
       "id": 3,
-      "prompt": "Soy jefa de protocolo de una empresa y tenemos una cena de gala con 8 comensales: el CEO de nuestra empresa (anfitrión), un cliente importante que es director general de otra empresa (invitado de honor), el CFO de nuestra empresa, la directora de marketing, el director comercial del cliente, la esposa del CEO, la esposa del cliente y el director financiero del cliente. ¿Cómo organizo la mesa?",
-      "expected_output": "Protocolo empresarial (no RD). Mesa de cena con presidencia francesa o inglesa para 8 comensales con alternancia de género. Posición de cada comensal justificada."
+      "tipo": "precedencias + banderas",
+      "prompt": "Evento con Rey de España, Presidente del Gobierno como anfitrión e invitado respectivamente, Presidente de EEUU, Reino Unido, Francia, Italia y Alemania, y los ministros de Presidencia, Transición Ecológica, Educación, Agricultura, Defensa y Sanidad. Evento en Zaragoza. ¿Cómo se colocan las banderas?",
+      "articulo": "Art. 12 (Zaragoza = territorio CA Aragón)",
+      "expected": "Banderas: 1.España·2.Aragón(CA sede)·3.Alemania·4.EEUU·5.Francia·6.Italia·7.Reino Unido (alfabético español para países extranjeros). Ministros en Art.12 nº15 ordenados por RD 507/2021: Defensa(3)·Educación(7)·Agricultura(10)·Presidencia(11)·TransiciónEcológica(13)·Sanidad(16)"
     },
     {
       "id": 4,
-      "prompt": "Para mi examen de RRPP necesito saber: ¿qué diferencia hay entre aplicar el artículo 10 y el artículo 12 del RD 2099/1983? Dame un ejemplo de cuándo usaría cada uno.",
-      "expected_output": "Explicación teórica clara de ambos artículos, diferencias principales (especialmente la subida del Presidente de la CA al nº 13 en el Art. 12), y ejemplos prácticos concretos."
+      "tipo": "banderas ONG/ONU doble sede",
+      "prompt": "Conferencia bajo auspicio ONU con: Guinea Ecuatorial, Somalia, Sudán del Sur, Senegal, Angola, Nigeria, Camerún, Alemania, Francia, Italia. ¿Banderas en sede ONU en EEUU? ¿Y en Salamanca?",
+      "expected": "ONU Nueva York: EEUU primero (sede) + resto alfabético en inglés: Angola·Cameroon·Equatorial Guinea·France·Germany·Italy·Nigeria·Senegal·Somalia·South Sudan. Salamanca: España primero + CyL (CA) + resto alfabético español: Alemania·Angola·Camerún·Francia·Guinea Ecuatorial·Italia·Nigeria·Senegal·Somalia·Sudán del Sur"
     },
     {
       "id": 5,
-      "prompt": "Organiza la ficha de banderas para un acto en Madrid con los siguientes países: Alemania, Francia, Italia, España, Polonia y Bélgica. España es el país anfitrión.",
-      "expected_output": "Ficha de banderas con España en posición 1 (anfitrión) y el resto ordenados alfabéticamente en español o por criterio UE. Diagrama con numeración y nombres."
+      "tipo": "EXAMEN FINAL — cumbre internacional Madrid, foto dos filas, mesa U, banderas ONU",
+      "prompt": "Cumbre de Paz Ucrania-Rusia en Madrid, bajo auspicio ONU. Invitados: Rey de España (IH), Embajadores de EEUU y Ucrania, Presidentes de Gobierno de España, Alemania, Canadá, Francia, Italia, Japón, Reino Unido y China. También en mesa: Ministra de Defensa, Jefe EM Defensa, Ministro Asuntos Exteriores, Representante ONU en Europa. Anfitrión: Presidente de Francia. El Rey preside la mesa; embajadores EEUU y Ucrania son mediadores VIP. Fichas: 1) Recepción izq-dcha, 2) Foto alternancia DOS filas, 3) Mesa en U (esquema dado con posiciones 1-17 + exteriores), 4) Banderas ONU.",
+      "articulo": "Art. 10 (Madrid capital del Estado, acto internacional)",
+      "expected": {
+        "tabla_precedencias": "IH=Rey España(Art10 nº1)·AA=Pdte Francia·Pdte Gobierno España(8)·Min Exteriores(14,1)·Min Defensa(14,2)·Emb EEUU(15,1)·Emb Ucrania(15,2)·Pdte Alemania(15,3)·Pdte Canadá(15,4)·Pdte Francia ya AA·Pdte Italia(15,5)·Pdte Japón(15,6)·Pdte Reino Unido(15,7)·Pdte China(15,8)·Jefe EM Defensa(31)·Rep ONU Europa(50)",
+        "banderas_ONU": "Alfabético inglés: China·Canada·France·Germany·Italy·Japan·Spain·Ukraine·United Kingdom·United States",
+        "nota_mesa": "Mesa en U: Rey preside centro. Embajadores EEUU y Ucrania como mediadores VIP a sus flancos inmediatos (pos 2 y 3). Resto en alternancia."
+      }
+    },
+    {
+      "id": 6,
+      "tipo": "EXAMEN — cena de gala presidencia francesa con señoras",
+      "prompt": "Cena de gala en Palacio Real organizada por el Rey. Invitados y sus parejas: Presidente del Gobierno, Embajadores de Ucrania y EEUU, Ministro de Asuntos Exteriores, Encargado de Negocio Francés, Director General Comercio con Ucrania, Delegado de Gobierno CAM, Delegado de la Defensa en Madrid. Organizar mesa presidencia francesa con parejas. El Rey preside como AA.",
+      "articulo": "Art. 10 (Palacio Real, Madrid)",
+      "expected": {
+        "tabla": "AA=Rey(1)·8(PdteGob)·14,1(MinExteriores)·15,1(EmbEEUU)·15,2(EmbUcrania)·34(EncNegFrancés)·28(DelegadoCAM)·36(DirGralComercio)·42(DelegadoDefensa)",
+        "mesa_francesa": "Sistema cartesiano con alternancia H/M. 1ªPresidencia(H)=Rey. A su derecha: esposa PdteGob(①), PdteGob(2), esposa MinExt(③), MinExt(4)... Los números circulados son señoras, los normales caballeros. Nunca dos del mismo sexo juntos.",
+        "nota": "Con 8 comensales + 8 parejas = 16 personas. Mesa oval/rectangular francesa sistema cartesiano."
+      }
     }
   ]
 }
