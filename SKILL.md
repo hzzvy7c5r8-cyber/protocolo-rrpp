@@ -41,6 +41,7 @@ Para resolver cualquier consulta, sigue este orden y consulta los archivos de re
 | 6. Protocolo diplomático | Cumbres, visitas de Estado | `references/05-protocolo-diplomatico.md` |
 | 7. Protocolo social | Bodas, bautizos, actos privados | `references/06-protocolo-social.md` |
 | 8. Generar documentos | Word/PDF listos para imprimir | `references/07-outputs-documentos.md` |
+| 9. Tratamientos, banderas, actos, ropa, CyL | Normas complementarias completas | `references/08-tratamientos-banderas-actos-ropa-CyL.md` |
 
 ---
 
@@ -166,3 +167,4 @@ Cuando varios cargos comparten el mismo número de precedencia, el orden entre e
 - `references/05-protocolo-diplomatico.md` → Cumbres internacionales, visitas de Estado, protocolo OTAN/UE, Convención de Viena
 - `references/06-protocolo-social.md` → Bodas, bautizos, comuniones, actos sociales privados
 - `references/07-outputs-documentos.md` → Cómo generar fichas Word y PDF profesionales
+- `references/08-tratamientos-banderas-actos-ropa-CyL.md` → Tratamientos (Excelentísimo/Ilustrísimo/Señoría), banderas en edificios (Ley 39/1981), actos de pie/sentados, tipos de discursos, ropa de protocolo (esmoquin/chaqué/frac), tipos de reuniones, protocolo Castilla y León, presentaciones y saludos, correspondencia e invitaciones
