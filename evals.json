@@ -1,55 +1,49 @@
 {
   "skill_name": "protocolo-rrpp",
-  "version": "2.0",
+  "version": "2.1",
   "evals": [
     {
       "id": 1,
-      "tipo": "precedencias + foto alternancia",
-      "prompt": "Evento en Madrid con: Presidente del Senado, Senador por Madrid don Fulano Pérez, Secretario de la Mesa del Senado, Jefe del Estado Mayor de la Defensa, Delegado del Gobierno de la CAM, Ministro del Interior, Embajadores de Francia y Portugal. Anfitrión: Nuncio Apostólico. Invitada de honor: Infanta Sofía de Borbón. Haz la precedencia para la foto del evento en fila única en formato de alternancia.",
-      "articulo": "Art. 10",
-      "expected": "10 personas PAR → IH (Infanta) en centro, AA (Nuncio) a su izquierda. Orden: IH·AA·10(Senado)·14(Interior)·26(JEMAD)·15.1(Emb.Francia)·15.2(Emb.Portugal)·28(DelegadoCAM)·32(Sec.Mesa)·40(Senador)"
+      "tipo": "Art.10 — foto alternancia + mesa T",
+      "prompt": "Evento en Madrid. Nuncio Apostólico (AA), Infanta Sofía (IH), Presidente Senado, Ministro Interior, Jefe EM Defensa, Embajadores Francia y Portugal, Delegado CAM, Secretario Mesa Senado, Senador Madrid. Foto alternancia.",
+      "expected": "10 personas PAR. IH centro, AA a su izquierda. Orden: IH·AA·10(Senado)·14(Interior)·26(JEMAD)·15.1(Francia)·15.2(Portugal)·28(DelegCAM)·32(SecMesa)·40(Senador)"
     },
     {
       "id": 2,
-      "tipo": "precedencias + ficha recepción",
-      "prompt": "Acto en Salamanca. Invitados: Secretario General de la Casa del Rey, Jefe de la Casa del Rey, Presidente del Congreso, Presidente del Consejo Económico y Social, Vicepresidente de la Mesa del Congreso, Consejero de Educación de CyL, Ministro de Asuntos Exteriores, Ministro de Economía, Presidente de la Audiencia Provincial de Salamanca. Anfitrión: Alcalde de Salamanca. IH: Presidente del Gobierno. Haz la ficha de recepción.",
-      "articulo": "Art. 12 (Salamanca = territorio CA Castilla y León)",
-      "expected": "IH primero, AA segundo. Orden: IH·AA·9(Congreso)·15.1(Exteriores)·15.2(Economía)·23(JefeCasaRey)·29(VPMesaCongreso)·31(SecGralCasaRey)·32(ConsejeroEduc)·34(CES)·45(AudienciaProv)"
+      "tipo": "Art.12 Salamanca — recepción",
+      "prompt": "Acto en Salamanca. Alcalde (AA), Presidente Gobierno (IH), Presidente Congreso, Secretario Gral Casa Rey, Jefe Casa Rey, VP Mesa Congreso, Consejero Educación CyL, Ministro Exteriores, Ministro Economía, Presidente Audiencia Provincial. Ficha recepción.",
+      "expected": "Art.12. IH primero, AA segundo. Orden: IH·AA·9·15.1(Ext)·15.2(Econ)·23(JefeCasaRey)·29(VPMesaCongreso)·31(SecGralCasaRey)·32(Consejero)·34(CES)·45(AudienciaProv)"
     },
     {
       "id": 3,
-      "tipo": "precedencias + banderas",
-      "prompt": "Evento con Rey de España, Presidente del Gobierno como anfitrión e invitado respectivamente, Presidente de EEUU, Reino Unido, Francia, Italia y Alemania, y los ministros de Presidencia, Transición Ecológica, Educación, Agricultura, Defensa y Sanidad. Evento en Zaragoza. ¿Cómo se colocan las banderas?",
-      "articulo": "Art. 12 (Zaragoza = territorio CA Aragón)",
-      "expected": "Banderas: 1.España·2.Aragón(CA sede)·3.Alemania·4.EEUU·5.Francia·6.Italia·7.Reino Unido (alfabético español para países extranjeros). Ministros en Art.12 nº15 ordenados por RD 507/2021: Defensa(3)·Educación(7)·Agricultura(10)·Presidencia(11)·TransiciónEcológica(13)·Sanidad(16)"
+      "tipo": "Art.12 Zaragoza — ministros + banderas",
+      "prompt": "Evento en Zaragoza con Rey, Presidente Gobierno (AA), presidentes EEUU, RU, Francia, Italia, Alemania, y ministros de Presidencia, Transición Ecológica, Educación, Agricultura, Defensa, Sanidad. Banderas.",
+      "expected": "Art.12. Ministros en nº15: Defensa(3)>Educación(7)>Agricultura(10)>Presidencia(11)>TransEcológica(13)>Sanidad(16). Banderas: España·Aragón·Alemania·EEUU·Francia·Italia·ReinoUnido (alfabético español)"
     },
     {
       "id": 4,
-      "tipo": "banderas ONG/ONU doble sede",
-      "prompt": "Conferencia bajo auspicio ONU con: Guinea Ecuatorial, Somalia, Sudán del Sur, Senegal, Angola, Nigeria, Camerún, Alemania, Francia, Italia. ¿Banderas en sede ONU en EEUU? ¿Y en Salamanca?",
-      "expected": "ONU Nueva York: EEUU primero (sede) + resto alfabético en inglés: Angola·Cameroon·Equatorial Guinea·France·Germany·Italy·Nigeria·Senegal·Somalia·South Sudan. Salamanca: España primero + CyL (CA) + resto alfabético español: Alemania·Angola·Camerún·Francia·Guinea Ecuatorial·Italia·Nigeria·Senegal·Somalia·Sudán del Sur"
+      "tipo": "Art.12 Salamanca — I Simposio Sede Olímpica (CASO REAL RESUELTO)",
+      "prompt": "Alcalde de Salamanca organiza el I Simposio Salamanca Sede Olímpica. Invitados: Presidente CyL, ExPresidentes Aznar y Zapatero, Presidentes CCAA Galicia/Asturias/Extremadura/Madrid, Rector USAL, Rectora UPSA (mujer), Subdelegado Gobierno Salamanca, General REI 11 (Rep.FFAA), Comisario Policía, Delegado Gobierno CyL, Secretario Estado Deporte. Mesa en U + foto alternancia.",
+      "articulo": "Art. 12 (Salamanca = CyL)",
+      "expected": "AA=Alcalde(1)·PdteCyL(2)·PdteGalicia(3·Art13nº3)·PdteAsturias(4·Art13nº5)·PdteExtremadura(5·Art13nº14)·PdteMadrid(6·Art13nº16)·ExPdteAznar(7·ant)·ExPdteZapatero(8)·DelegadoGobCyL(9·nº21)·SecEstadoDeporte(10·nº28)·GeneralREI11(11·nº30)·SubdelegSalamanca(12·nº43)·RectorUSAL(13·nº44mayor)·RectoraUPSA(14·nº44menor)·ComisarioPolicía(15·nº50). Foto 15 personas IMPAR → Alcalde preside derecha del centro."
     },
     {
       "id": 5,
-      "tipo": "EXAMEN FINAL — cumbre internacional Madrid, foto dos filas, mesa U, banderas ONU",
-      "prompt": "Cumbre de Paz Ucrania-Rusia en Madrid, bajo auspicio ONU. Invitados: Rey de España (IH), Embajadores de EEUU y Ucrania, Presidentes de Gobierno de España, Alemania, Canadá, Francia, Italia, Japón, Reino Unido y China. También en mesa: Ministra de Defensa, Jefe EM Defensa, Ministro Asuntos Exteriores, Representante ONU en Europa. Anfitrión: Presidente de Francia. El Rey preside la mesa; embajadores EEUU y Ucrania son mediadores VIP. Fichas: 1) Recepción izq-dcha, 2) Foto alternancia DOS filas, 3) Mesa en U (esquema dado con posiciones 1-17 + exteriores), 4) Banderas ONU.",
-      "articulo": "Art. 10 (Madrid capital del Estado, acto internacional)",
-      "expected": {
-        "tabla_precedencias": "IH=Rey España(Art10 nº1)·AA=Pdte Francia·Pdte Gobierno España(8)·Min Exteriores(14,1)·Min Defensa(14,2)·Emb EEUU(15,1)·Emb Ucrania(15,2)·Pdte Alemania(15,3)·Pdte Canadá(15,4)·Pdte Francia ya AA·Pdte Italia(15,5)·Pdte Japón(15,6)·Pdte Reino Unido(15,7)·Pdte China(15,8)·Jefe EM Defensa(31)·Rep ONU Europa(50)",
-        "banderas_ONU": "Alfabético inglés: China·Canada·France·Germany·Italy·Japan·Spain·Ukraine·United Kingdom·United States",
-        "nota_mesa": "Mesa en U: Rey preside centro. Embajadores EEUU y Ucrania como mediadores VIP a sus flancos inmediatos (pos 2 y 3). Resto en alternancia."
-      }
+      "tipo": "Art.12 Salamanca — recepción con Rey + banderas internacionales en España",
+      "prompt": "I Jornada Olímpica Salamanca. Alcalde (AA), Rey (IH), Presidente Gobierno, Presidenta Congreso, Presidente Senado, Ministro Exteriores, Ministra Transportes, Ministro Cultura, Embajadores Argentina/Australia/Canadá/Korea/Sudáfrica. 1) Ficha recepción de derecha a izquierda. 2) Banderas sistema lineal derecha a izquierda.",
+      "expected": "Recepción: AS y REY separados, invitados 1-11 de derecha a izquierda. Orden: PdteGob(1)·PdtaCongreso(2)·PdteSenado(3)·MinExt(4)·MinTransportes(5)·MinCultura(6)·EmbArgentina(7)·EmbAustralia(8)·EmbCanadá(9)·EmbKorea(10)·EmbSudáfrica(11). Banderas alfabético ESPAÑOL (acto en España): España·Argentina·Australia·Canadá·Korea·Sudáfrica. Sistema lineal dcha-izq: [6][5][4][3][2][1→]"
     },
     {
       "id": 6,
-      "tipo": "EXAMEN — cena de gala presidencia francesa con señoras",
-      "prompt": "Cena de gala en Palacio Real organizada por el Rey. Invitados y sus parejas: Presidente del Gobierno, Embajadores de Ucrania y EEUU, Ministro de Asuntos Exteriores, Encargado de Negocio Francés, Director General Comercio con Ucrania, Delegado de Gobierno CAM, Delegado de la Defensa en Madrid. Organizar mesa presidencia francesa con parejas. El Rey preside como AA.",
-      "articulo": "Art. 10 (Palacio Real, Madrid)",
-      "expected": {
-        "tabla": "AA=Rey(1)·8(PdteGob)·14,1(MinExteriores)·15,1(EmbEEUU)·15,2(EmbUcrania)·34(EncNegFrancés)·28(DelegadoCAM)·36(DirGralComercio)·42(DelegadoDefensa)",
-        "mesa_francesa": "Sistema cartesiano con alternancia H/M. 1ªPresidencia(H)=Rey. A su derecha: esposa PdteGob(①), PdteGob(2), esposa MinExt(③), MinExt(4)... Los números circulados son señoras, los normales caballeros. Nunca dos del mismo sexo juntos.",
-        "nota": "Con 8 comensales + 8 parejas = 16 personas. Mesa oval/rectangular francesa sistema cartesiano."
-      }
+      "tipo": "Mesa francesa con señoras — problema de desequilibrio (CASO REAL)",
+      "prompt": "Cena de gala. Rey y Reina presiden. Invitados con parejas: Alcalde Salamanca, Presidente Gobierno, Presidente Senado, Ministro Exteriores, Embajador Canadá. 5 invitados con pareja = 10 comensales. La mesa queda desequilibrada. ¿Qué hacer?",
+      "expected": "El problema: 5 comensales + pareja de cada uno = 10 personas + Rey + Reina = 12 total pero la distribución queda desigual a cada lado de las presidencias. SOLUCIÓN: invitar a Rector USAL + pareja para tener 3 comensales exactos por cada lado. Alternativa: cerrar extremos (menos ideal por posible ruptura de alternancia género). Mesa final: 1ªP=Rey · 2ªP=Reina · lado Rey: AcompAlcalde·AcompPdteGob·PdteSenado·MinExt·AcompEmbCanadá·AcompRector · lado Reina: Alcalde·PdteGob·AcompPdteSenado·AcompMinExt·EmbCanadá·Rector"
+    },
+    {
+      "id": 7,
+      "tipo": "Examen Final — Cumbre Paz Ucrania-Rusia + Cena Gala",
+      "prompt": "Cumbre de Paz Ucrania-Rusia en Madrid bajo ONU. AA=Pdte.Francia, IH=Rey España. Invitados: Emb.EEUU, Emb.Ucrania (mediadores VIP mesa), Pdtes.Gob de España/Alemania/Canadá/Italia/Japón/ReinoUnido/China, Ministra Defensa, Jefe EM Defensa, Min.Exteriores, Rep.ONU Europa. Fichas: recepción izq-dcha, foto dos filas, mesa U, banderas ONU.",
+      "expected": "Art.10. Tabla corregida: PdteEspaña(8)·MinExt(14,1)·MinDefensa(14,2)·PdteAlemania(15,1)·PdteCanadá(15,2)·PdteChina(15,3)·EmbEEUU(15,4)·PdteItalia(15,5)·PdteJapón(15,6)·PdteReinoUnido(15,7)·EmbUcrania(15,8)·JefeEMDefensa(26)·RepONU(50). Banderas ONU en inglés: Spain·China·Canada·France·Germany·Italy·Japan·United Kingdom·United States·Ukraine"
     }
   ]
 }
