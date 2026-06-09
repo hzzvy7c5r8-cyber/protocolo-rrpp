@@ -397,3 +397,86 @@ Se presenta siempre a la persona de menor rango a la de mayor rango.
 - Se firma en página impar (derecha) del libro abierto; página par lleva foto del evento
 - El Rey firma siempre en la primera hoja aunque haya hojas disponibles
 - Una empresa puede tener varios libros de honor
+
+---
+
+## CASO PRÁCTICO REAL RESUELTO — I SIMPOSIO SALAMANCA SEDE OLÍMPICA
+*(Solución oficial del profesor — Salamanca, noviembre 2024)*
+
+### Contexto
+Acto organizado por el Alcalde de Salamanca. Marco: **Art. 12 RD 2099/1983** (territorio CA Castilla y León).
+
+### Tabla de precedencias oficial resuelta
+
+| Orden | Cargo | Justificación |
+|---|---|---|
+| 1 (AA) | Alcalde de Salamanca | Anfitrión — Art.12 nº 22 |
+| 2 | Presidente CCAA Castilla y León | Art.12 nº 13 |
+| 3 | Presidente de Galicia | Art.12 nº 17 — Art.13 nº3 |
+| 4 | Presidente de Asturias | Art.12 nº 17 — Art.13 nº5 |
+| 5 | Presidente de Extremadura | Art.12 nº 17 — Art.13 nº14 |
+| 6 | Presidente de Madrid | Art.12 nº 17 — Art.13 nº16 |
+| 7 | ExPresidente Aznar | Art.12 nº 18 — antigüedad |
+| 8 | ExPresidente Zapatero | Art.12 nº 18 |
+| 9 | Delegado Gobierno CyL | Art.12 nº 21 |
+| 10 | Secretario Estado Deporte | Art.12 nº 28 |
+| 11 | General REI 11 — Rep. Institucional FFAA | Art.12 nº 30 |
+| 12 | Subdelegado Gobierno Salamanca | Art.12 nº 43 |
+| 13 | Rector Universidad de Salamanca | Art.12 nº 44 — mayor antigüedad |
+| 14 | Rectora Universidad Pontificia Salamanca | Art.12 nº 44 — menor antigüedad |
+| 15 | Comisario de Policía | Fuera de lista → nº 50+ |
+
+**Foto oficial:** 15 personas = IMPAR → Alcalde preside derecha del centro.
+Esquema: [14][12][10][8][6][4][2][AA][3][5][7][9][11][13][15]
+La rectora (nº 14) se representa con monigote femenino.
+
+---
+
+## CASO PRÁCTICO — I JORNADA OLÍMPICA (continuación)
+
+### Recepción con el Rey
+
+El Alcalde (AA) y el Rey (IH) reciben juntos. Los invitados se presentan **al Rey** de derecha a izquierda.
+Orden: 1·PdteGob · 2·Pdta.Congreso · 3·Pdte.Senado · 4·MinExteriores · 5·MinTransportes · 6·MinCultura · 7·EmbArgentina · 8·EmbAustralia · 9·EmbCanadá · 10·EmbKorea · 11·EmbSudáfrica
+
+### Banderas en España con países extranjeros — sistema lineal
+
+**Criterio:** España primero + resto **alfabético en español** (no es OTAN/ONU → se usa español).
+Orden: España · Argentina · Australia · Canadá · Korea · Sudáfrica
+Sistema lineal derecha a izquierda: [6·Sudáfrica][5·Korea][4·Canadá][3·Australia][2·Argentina][1·España→]
+
+---
+
+## REGLA CRÍTICA — MESA FRANCESA CON COMENSALES DESEQUILIBRADOS
+
+### El problema
+Cuando en una mesa de presidencia francesa el número de comensales **no queda igual a ambos lados** de las presidencias, la mesa queda desequilibrada. **Nunca pueden quedar más platos de un lado que del otro.**
+
+### Soluciones (en orden de preferencia)
+
+**Opción 1 — Invitar a alguien más** ✅ preferida
+Añadir un comensal de rango adecuado y su pareja para equilibrar la mesa.
+En el caso práctico: se invitó al Rector de la USAL → 3 comensales por cada lado → equilibrado.
+
+**Opción 2 — Cerrar arriba y abajo**
+Añadir comensales en los extremos de la mesa oval.
+Inconveniente: puede romper la alternancia de género en los extremos (dos hombres o dos mujeres juntos).
+
+### Solución final del caso (con Rector invitado)
+
+Mesa oval presidencia francesa — 1ª P (H) = Rey · 2ª P (M) = Reina
+
+```
+Lado 1ª P (Rey):          Lado 2ª P (Reina):
+1 · Acomp. Alcalde        1 · Alcalde Salamanca
+2 · Acomp. PdteGob        2 · Presidente Gobierno
+3 · Pdte. Senado          3 · Acomp. Pdte. Senado
+4 · Min. Exteriores       4 · Acomp. Min. Exteriores
+5 · Acomp. Emb. Canadá    5 · Embajador Canadá
+6 · Acomp. Rector         6 · Rector USAL
+```
+
+### Regla extraída
+
+> Cuando una mesa francesa queda con distinto número de comensales a cada lado de las presidencias, hay que corregirlo siempre. La opción preferida es invitar a un comensal adicional de rango adecuado que permita mantener la alternancia perfecta de género. Cerrar los extremos es válido pero puede generar problemas de alternancia.
+
