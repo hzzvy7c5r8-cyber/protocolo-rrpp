@@ -133,6 +133,53 @@ Cuando varios cargos comparten el mismo número de precedencia, el orden entre e
 
 ---
 
+## ⚠️ REGLA CRÍTICA — PERSPECTIVA EN FICHAS
+
+**Todas las fichas (recepción, foto oficial, mesa de trabajo, banderas) se describen y
+dibujan desde la perspectiva del espectador: como si tú miraras la pantalla del ordenador
+de frente.**
+
+- El nº 1 (posición de mayor honor) está siempre en el **extremo DERECHO del espectador**
+- En la foto oficial: el IH está a la **izquierda del espectador** (= derecha del AA)
+- En la mesa de trabajo: lo que está a la derecha del que preside = a la izquierda del espectador
+- Las banderas: la nº 1 (anfitrión) está en el **extremo DERECHO del espectador**
+
+> 🖥️ Regla mnemotécnica: "Lo dibujo como si lo viera yo en la pantalla. Mi derecha = nº 1."
+
+---
+
+## ⚠️ DISTINCIÓN CRÍTICA — INGLATERRA vs. REINO UNIDO
+
+**Inglaterra (England) y Reino Unido (United Kingdom) son entidades diferentes:**
+
+| | Inglaterra (England) | Reino Unido (United Kingdom) |
+|---|---|---|
+| **Qué es** | Una de las naciones constituyentes del RU | Estado soberano completo |
+| **Bandera** | Cruz de San Jorge (cruz roja sobre fondo blanco) | Union Jack (bandera combinada) |
+| **Presidente/PM** | No tiene Primer Ministro propio | Primer Ministro del RU |
+| **En orden OTAN (inglés)** | **E** → va entre D y F | **U** → va entre T y V |
+| **En orden ONU (inglés)** | No es miembro independiente | **U** → United Kingdom |
+
+**Regla de aplicación:**
+- Si el enunciado dice **"Inglaterra"** → usar **"England"** → letra **E** en orden alfabético inglés
+- Si el enunciado dice **"Reino Unido"** → usar **"United Kingdom"** → letra **U** en orden alfabético inglés
+- **NUNCA sustituir el término del enunciado** por el otro aunque sea "más correcto"
+- En actos OTAN/ONU donde el enunciado no especifica: usar **United Kingdom** (miembro oficial)
+
+**Ejemplo de impacto en orden de banderas (acto OTAN en España, 7 países):**
+
+Con **England (E)**:
+```
+1.Spain · 2.Argentina(A) · 3.Australia(A) · 4.England(E) · 5.France(F) · 6.Germany(G) · 7.South Africa(S)
+```
+
+Con **United Kingdom (U)**:
+```
+1.Spain · 2.Argentina(A) · 3.Australia(A) · 4.France(F) · 5.Germany(G) · 6.South Africa(S) · 7.United Kingdom(U)
+```
+
+---
+
 ## EJEMPLO RESUELTO — REFERENCIA RÁPIDA
 
 **I Cumbre Groenlandia es Europa — Madrid, 4-6 marzo 2026**
@@ -168,3 +215,5 @@ Cuando varios cargos comparten el mismo número de precedencia, el orden entre e
 - `references/06-protocolo-social.md` → Bodas, bautizos, comuniones, actos sociales privados
 - `references/07-outputs-documentos.md` → Cómo generar fichas Word y PDF profesionales
 - `references/08-tratamientos-banderas-actos-ropa-CyL.md` → Tratamientos (Excelentísimo/Ilustrísimo/Señoría), banderas en edificios (Ley 39/1981), actos de pie/sentados, tipos de discursos, ropa de protocolo (esmoquin/chaqué/frac), tipos de reuniones, protocolo Castilla y León, presentaciones y saludos, correspondencia e invitaciones
+
+
