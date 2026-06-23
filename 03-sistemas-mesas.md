@@ -13,23 +13,28 @@
 
 ## 1. SISTEMA LINEAL
 
-Todos en fila. El nº 1 ocupa el extremo derecho visto desde el público (izquierda del espectador).
-Los demás se colocan de derecha a izquierda en orden descendente.
+Todos en fila. El nº 1 ocupa el extremo **derecho del espectador** (quien mira la ficha de frente,
+como si mirase la pantalla del ordenador). Los demás se colocan de derecha a izquierda en
+orden descendente.
+
+> 🖥️ **Perspectiva siempre = tú mirando la pantalla del ordenador de frente.**
+> El nº 1 es el que está a tu derecha. El nº más alto está a tu izquierda.
 
 ```
-← Dirección de numeración
+← Dirección de numeración (de derecha a izquierda del espectador)
 
 [8] [7] [6] [5] [4] [3] [2] [1]
                             ↑
-                       Posición nº 1
-                    (derecha del público)
+                  Posición nº 1
+             (extremo DERECHO del espectador)
 ```
 
 **Cuándo se usa:** recepciones en fila, inauguraciones, actos de bienvenida, líneas de recepción.
 
 **Nota:** En recepciones con AA e IH separados del grupo:
-- AA e IH se colocan aparte, frente a los invitados (posiciones 1 y 2)
-- Los invitados forman la fila lineal desde el nº 3 en adelante
+- AA e IH se colocan aparte, frente a los invitados
+- Los invitados forman la fila lineal numerada desde nº 1 en adelante
+- El nº 1 queda en el extremo derecho del espectador (más cerca de AA e IH)
 
 ---
 
@@ -38,31 +43,52 @@ Los demás se colocan de derecha a izquierda en orden descendente.
 El nº 1 ocupa el centro. Los demás se alternan izquierda-derecha en orden descendente.
 Es el sistema más usado en fotos oficiales y mesas de presidencia.
 
-### Número PAR de personas — preside el del centro (a la derecha del centro geométrico)
+> 🖥️ **Perspectiva siempre = tú mirando la pantalla del ordenador de frente.**
+> El nº 1 está en el centro o ligeramente a la izquierda del espectador (derecha del que preside).
+> Los impares crecen hacia la IZQUIERDA del espectador.
+> Los pares crecen hacia la DERECHA del espectador.
+
+### Número IMPAR de personas — de los dos del centro, el IH a la IZQUIERDA del espectador
+
+Con número impar no hay centro geométrico único. Los dos del centro son IH y AA.
+Visto de frente (como tú desde la pantalla):
 
 ```
-[6] [4] [2] [1] [3] [5] [7]
-         ↑
-    Posición nº 1
+Espectador ve de izquierda a derecha:
+
+[7] [5] [3] [1] [IH] [AA] [2] [4] [6] [8]
+                  ↑
+          Posición nº 1 = IH
+     (a la IZQUIERDA del espectador,
+      a la DERECHA del AA que está junto a él)
 ```
 
-Ejemplo con 14 personas:
+El IH está a la **izquierda del espectador** = a la **derecha del AA** desde el punto de vista
+de quien está en la fila. Nunca se invierte esta relación.
+
+### Número PAR de personas — preside el del centro a la derecha del centro geométrico
+
+```
+Espectador ve de izquierda a derecha:
+
+[6] [4] [2] [IH/1] [AA/2] [3] [5] [7]
+             ↑
+     Posición nº 1 (IH)
+  (ligeramente a la IZQUIERDA del centro
+   para el espectador)
+```
+
+Ejemplo con 14 personas (número par):
 ```
 [14][12][10][8][6][4][2][1][3][5][7][9][11][13]
                     ↑
                Posición nº 1
 ```
 
-### Número IMPAR de personas — de los dos del centro, preside el de la DERECHA
-
-```
-[7] [5] [3] [1] [2] [4] [6] [8]
-             ↑
-        Posición nº 1
-        (derecha del centro)
-```
-
 **Cuándo se usa:** fotos oficiales, mesas de presidencia en actos, tribunales.
+
+**Regla mnemotécnica:** "El IH siempre a la derecha del AA — y eso desde el espectador
+se ve como que el IH está a la IZQUIERDA."
 
 ---
 
@@ -115,55 +141,93 @@ de cada presidencia. La derecha de la 1ª P tiene más honor que la izquierda.
 
 ## 4. MESA RECTANGULAR — PRESIDENCIA FRANCESA
 
-Las dos presidencias se colocan en los **lados largos** de la mesa, enfrentadas.
-- **1ª Presidencia (H):** lado derecho de la mesa (mirando desde la puerta) — mayor honor
-- **2ª Presidencia (M):** lado izquierdo de la mesa (mirando desde la puerta)
+Las dos presidencias se colocan en los **lados LARGOS** de la mesa, enfrentadas en el centro.
+**NO van en los extremos** (eso sería presidencia inglesa). Los extremos quedan VACÍOS.
 
-Los invitados se colocan a derecha e izquierda de cada presidencia, alternando.
+> 🖥️ **Perspectiva = tú mirando la pantalla de frente (como siempre).**
 
-### Sistema del reloj:
+- **P1 — 1ª Presidencia:** lado **DERECHO** del espectador = AA (quien preside, caballero de mayor rango)
+- **P2 — 2ª Presidencia:** lado **IZQUIERDO** del espectador = IH o señora de mayor rango
+
+## 4. MESA RECTANGULAR — PRESIDENCIA FRANCESA
+
+Las dos presidencias se colocan en los **lados LARGOS** de la mesa, enfrentadas en el centro.
+**NO van en los extremos** (eso sería presidencia inglesa). Los extremos quedan VACÍOS.
+
+> 🖥️ **Perspectiva = tú mirando la pantalla de frente (como siempre).**
+
+- **P1 — 1ª Presidencia:** lado **DERECHO** del espectador = AA (quien preside)
+- **P2 — 2ª Presidencia:** lado **IZQUIERDO** del espectador = IH o comensal de mayor rango
+
+---
+
+### 4A. PRESIDENCIA FRANCESA EN CENA CON PAREJAS
+
+> ⚠️ **La regla de impares/pares por lado SOLO aplica en cenas con parejas.**
+> No aplica en mesas de trabajo.
+
+**Reglas:**
+
+1. P1 (derecha) = AA, caballero de mayor rango
+2. P2 (izquierda) = señora de mayor rango (pareja del IH o primera dama/señora invitada)
+3. **Impares** → lado de P1 (derecha) · **Pares** → lado de P2 (izquierda)
+4. La numeración parte desde las presidencias hacia los extremos
+5. **Circulados ○ = señoras · números normales = caballeros**
+6. Alternancia C-S obligatoria — nunca dos iguales juntos
+7. Cada comensal tiene a su pareja sentada **enfrente** en el lado contrario
+
+**Diagrama cena con parejas (vista de frente = pantalla):**
 
 ```
-    53
-52  │  49
-48  │  45
-44  │  41
-40  │  37       ← columna derecha: impares (1,5,9,13...)
-36  │  33
-32  │  29
-28  │  25
-24  │  21
-20  │  17
-16  │  13
-12  │   9
- 8  │   5
- 4  │   1
-────┼────
-2ªP │ 1ªP
-────┼────
- 3  │   2
- 7  │   6
-11  │  10
-15  │  14
-19  │  18
-23  │  22
-27  │  26
-31  │  30
-35  │  34
-39  │  38
-43  │  42
-47  │  46
-51  │  50
-    54
+IZQUIERDA (P2)           |    DERECHA (P1 = AA)
+                          |
+  — extremo vacío —       |    — extremo vacío —
+                          |
+    ⑧   6   ④   2        |    1   ③   5   ⑦
+  [P2 — 2ª Presidencia]  |  [P1 — 1ª Presidencia]
+    ⑦   5   ③   1        |    2   ④   6   ⑧
+                          |
+  — extremo vacío —       |    — extremo vacío —
 ```
 
-### Sistema cartesiano:
+Donde ○ = señora · número normal = caballero.
 
-La numeración parte de la 1ª P hacia los extremos de forma simétrica.
-Los números impares van al lado de la 1ª P; los pares al lado de la 2ª P.
+**Lectura del esquema del profesor (mesa dibujada en vertical):**
+- Mesa girada 90°: P1 a la derecha, P2 a la izquierda
+- Los números suben y bajan desde cada presidencia hacia los extremos
+- Circulados = señoras · normales = caballeros
+- Alternancia C-S se mantiene en todas las direcciones
 
-**Cuándo se usa:** reuniones de trabajo largas, cenas con muchos comensales donde se
-quiere facilitar la conversación a lo largo de toda la mesa.
+---
+
+### 4B. PRESIDENCIA FRANCESA EN MESA DE TRABAJO (sin parejas)
+
+> ⚠️ **En mesa de trabajo NO hay alternancia de género ni regla de impares/pares.**
+> Se numera por **orden de precedencia puro**, alternando izquierda-derecha desde P1.
+
+**Reglas:**
+
+1. P1 (derecha) = quien preside (mayor rango del acto)
+2. P2 (izquierda) = segundo en rango, enfrentado a P1
+3. Los comensales se numeran del 1 en adelante por orden de precedencia
+4. Se van colocando alternando: 1 a la derecha de P1, 2 a la derecha de P2, 3 a la izquierda de P1, 4 a la izquierda de P2...
+5. **No hay circulados ni distinción de género**
+
+**Diagrama mesa de trabajo:**
+
+```
+IZQUIERDA (P2)           |    DERECHA (P1)
+                          |
+  — extremo vacío —       |    — extremo vacío —
+                          |
+    8   6   4   2        |    1   3   5   7
+  [P2 — 2ª Presidencia]  |  [P1 — 1ª Presidencia]
+    7   5   3   1        |    2   4   6   8
+                          |
+  — extremo vacío —       |    — extremo vacío —
+```
+
+**Cuándo se usa:** reuniones de trabajo, cumbres, mesas de negociación sin parejas.
 
 ---
 
@@ -251,35 +315,57 @@ enfrentadas en el punto medio de la mesa (igual que presidencia francesa pero si
 
 ## 10. COMIDAS CON SEÑORAS — ALTERNANCIA DE GÉNERO
 
-Se alternan señoras (S) y caballeros (C) alrededor de la mesa.
-Las señoras acompañan la precedencia de su cónyuge/acompañante.
+Se alternan señoras (S) y caballeros (C) alrededor de la mesa. **NUNCA dos del mismo
+género juntos.** Las señoras llevan la precedencia de su cónyuge/acompañante pero en
+género femenino.
 
-**Regla de oro:** el invitado de mayor rango (nº 1 masculino) tiene a su derecha
-a la señora de mayor rango; a su izquierda, la segunda señora por rango.
+**Regla de oro:** P1 (caballero que preside) tiene a su derecha a la señora de mayor rango.
+P2 (señora que co-preside) tiene a su derecha al caballero de mayor rango.
 
-**Presidencia francesa con señoras:**
+**Presidencia francesa con señoras (vista de frente = pantalla):**
 
 ```
-  S4   C3   S2   [1ªP H]   C2   S3   C4     ← lado 1ª Presidencia
-  ─────────────────────────────────────
-  C4   S3   C2   [2ªP M]   S2   C3   S4     ← lado 2ª Presidencia
+IZQUIERDA (P2)               DERECHA (P1 = AA)
+
+  — extremo vacío —          — extremo vacío —
+
+   ⑧  ⑥  ④  ②           ①  ③  ⑤  ⑦
+    7   5   3   1           2   4   6   8
+  [P2 — 2ª Presidencia] | [P1 — 1ª Presidencia]
+    8   6   4   2           1   3   5   7
+   ⑦  ⑤  ③  ①           ②  ④  ⑥  ⑧
+
+  — extremo vacío —          — extremo vacío —
 ```
 
-Los números circulados ①②③ indican señoras; los normales 1 2 3 indican caballeros.
+Donde ○ = señora y número normal = caballero.
+
+- **P1 (AA, derecha):** tiene a su derecha (hacia arriba en el diagrama del profe) al comensal nº 1
+- **P2 (izquierda):** tiene a su derecha (hacia arriba) al comensal nº 2 — que es la pareja/cónyuge del nº 1
+- Los comensales y sus parejas se sientan **enfrente** el uno del otro
+- Impares arriba de P1 · pares abajo de P1 (y al revés en P2) → garantiza alternancia C-S automática
+
+> 🔑 **Regla definitiva:** números circulados = señoras · números normales = caballeros.
+> Impares en un lado de P1, pares en el otro. Siempre alternancia C-S sin excepción.
 
 **Presidencia inglesa con señoras:**
 
 ```
          ┌──────────────┐
-         │    1ªP (H)   │
+         │   P1 (H) ♂   │
          └──────┬───────┘
-  ①  3  ③  5  ⑤│⑥  4  ④  2  ②
-  ───────────── │ ─────────────
-  ②  4  ④  6  ⑥│⑤  3  ③  1  ①
+
+  S4  C3  S2  C1 │ S1  C2  S3  C4
+  ─────────────── │ ───────────────
+  C4  S3  C2  S1 │ C1  S2  C3  S4
+
          ┌──────┴───────┐
-         │    2ªP (M)   │
+         │   P2 (M) ♀   │
          └──────────────┘
 ```
+
+- P1 tiene a su derecha a S1 (señora nº 1) y a su izquierda a C1 (caballero nº 1)
+- P2 tiene a su derecha a C1 y a su izquierda a S1 (mismos, enfrente de donde están)
 
 ---
 
